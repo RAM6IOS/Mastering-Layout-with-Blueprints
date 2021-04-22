@@ -13,6 +13,8 @@
 		04E04F412631E6890094213F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E04F402631E6890094213F /* Preview Assets.xcassets */; };
 		04E04F4C2631E68A0094213F /* LayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E04F4B2631E68A0094213F /* LayoutTests.swift */; };
 		04E04F572631E68A0094213F /* LayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E04F562631E68A0094213F /* LayoutUITests.swift */; };
+		04E04F652631EF140094213F /* Blueprints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E04F642631EF140094213F /* Blueprints.swift */; };
+		04E04F692631EF7C0094213F /* HStak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E04F682631EF7C0094213F /* HStak.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		04E04F522631E68A0094213F /* LayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E04F562631E68A0094213F /* LayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutUITests.swift; sourceTree = "<group>"; };
 		04E04F582631E68A0094213F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E04F642631EF140094213F /* Blueprints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blueprints.swift; sourceTree = SOURCE_ROOT; };
+		04E04F682631EF7C0094213F /* HStak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStak.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 		04E04F382631E6820094213F /* Layout */ = {
 			isa = PBXGroup;
 			children = (
+				04E04F672631EF450094213F /* HStake */,
+				04E04F642631EF140094213F /* Blueprints.swift */,
 				04E04F392631E6820094213F /* LayoutApp.swift */,
 				04E04F3B2631E6820094213F /* ContentView.swift */,
 				04E04F3D2631E6890094213F /* Assets.xcassets */,
@@ -128,6 +134,14 @@
 				04E04F582631E68A0094213F /* Info.plist */,
 			);
 			path = LayoutUITests;
+			sourceTree = "<group>";
+		};
+		04E04F672631EF450094213F /* HStake */ = {
+			isa = PBXGroup;
+			children = (
+				04E04F682631EF7C0094213F /* HStak.swift */,
+			);
+			path = HStake;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E04F652631EF140094213F /* Blueprints.swift in Sources */,
+				04E04F692631EF7C0094213F /* HStak.swift in Sources */,
 				04E04F3C2631E6820094213F /* ContentView.swift in Sources */,
 				04E04F3A2631E6820094213F /* LayoutApp.swift in Sources */,
 			);
